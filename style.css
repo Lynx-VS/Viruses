@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #26432c;
+
+    color: white;
+    scroll-behavior: smooth;
+    padding-top: 15vh;
+}
+
+hr{
+    width: 70%;
+    margin: 15vh auto;
+    color: #0B2111;
+}
+
+label{
+    padding-right: 30px;
+}
+
+.text{
+    padding: 45px;
+    line-height: 40px;
+}
+
+.s48{
+    font-size: 40px;
+    line-height: normal;
+}
+
+.s32{
+    font-size: 32px;
+}
+
+.s24{
+    font-size: 24px;
+}
+
+/*HEADER*/
+
+header{
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-style: italic;
+    background-color: #0B2111;
+    color: #CFE5DA;
+
+    z-index: 1000;
+}
+
+/*MAIN*/
+
+.startSection{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.start{
+    width: 100%;
+    height: 85vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 5vh;
+}
+
+.block{
+    background-color: #0B2111;
+
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+
+.arrow{
+    width: 90px;
+    height: 90px;
+
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.choice-info{
+    width: 100%;
+    height: 85vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 10vh 0;
+}
+
+.block-row{
+    width: 35%;
+
+    background-color: #0B2111;
+    border-radius: 50px;
+}
+
+.choice-info .block-row{
+    margin-top: 10vh;
+}
+
+.Classification-container{
+    width: 100%;
+    height: auto;
+
+    padding-top: 10vh;
+}
+
+.container{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formSection{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 85vh;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radioBtn{
+    width: 25px;
+    height: 25px;
+}
+
+textarea{
+    width: 100%;
+    height: 10vh;
+
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    background-color: #26432c;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.click-classification, .click-methods{
+    cursor: pointer;
+}
+
+.btn-up {
+    position: fixed;
+    background-color: #0B2111;
+    right: 20px;
+    bottom: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+}
+
+.btn-up::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+}
+  
+.btn-up_hide {
+    display: none;
+}
+  
+@media (hover: hover) and (pointer: fine) {
+    .btn-up:hover {
+      background-color: #16351f;
+    }
+}
